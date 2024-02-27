@@ -1,6 +1,8 @@
-data class Game (val title:String,
-            val thumb:String){
-    val descripton = ""
+package br.com.alura.alugames.models
+
+data class Game (val title:String?,
+                 val thumb:String?){
+    var descripton:String? = null
 
 
     override fun toString(): String {
