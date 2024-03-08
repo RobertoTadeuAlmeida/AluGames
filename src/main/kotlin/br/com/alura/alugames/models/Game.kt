@@ -1,8 +1,12 @@
 package br.com.alura.alugames.models
 
-data class Game (val title:String?,
-                 val thumb:String?){
-    var descripton:String? = null
+import java.util.Scanner
+
+data class Game(
+    val title: String?,
+    val thumb: String?
+) {
+    var descripton: String? = null
 
 
     override fun toString(): String {
@@ -11,6 +15,5 @@ data class Game (val title:String?,
                 "Capa: $thumb \n" +
                 "Descrição: $descripton \n"
     }
-
 
 }
