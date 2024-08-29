@@ -19,7 +19,7 @@ O **AluGames** pode ser utilizado para implementar funcionalidades de busca de i
 
 ## Contribuições
 
-No momento, o projeto **AluGames** não está aberto para contribuições externas.
+O projeto **AluGames** aceita novas ideias de contribuição.
 
 ## Licença
 
